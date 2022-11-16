@@ -1,0 +1,111 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 4000px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 2800px;
+  border-radius: 50px;
+  font-family: sans-serif;
+
+}
+
+/* logo e testo iniziale */
+img{
+  width: 800px;
+  margin: auto;
+  display: block;
+  padding-top: 300px;
+}
+
+#fraseinizio{
+  margin: auto;
+  font-size: 100px;
+  width: 1500px;
+  color: #07F728;
+}
+
+/* input prenotazione motorino */
+.navigate{
+  margin: auto;
+  display: flex;
+  width: 3000px;
+  height: 150px;
+  background-color: #07F728;
+  justify-content:center
+
+}
+
+button{
+  font-size: 40px;
+  margin-left:20px;
+  margin-top:40px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+/* lista motorini con distanza da cliente e carica residua */
+#checkbox{
+  width: 40px;
+  height: 40px;
+  margin-left: 200px;
+  margin-right: 20px;
+  display: inline-block;
+
+}
+
+.monopattino {
+
+  font-size: 80px;
+  color: white
+}
+
+.descrizione{
+  margin-top: 50px;
+  margin-left: 300px;
+  font-size: 50px;
+  color: lightgray;
+  display: block;
+}
+
+.locazione::before{
+  content: "\21A6";
+  display: contents;
+}
+
+div > .locazione, .carica, .barra {
+  margin-left: 200px;
+  display: grid;
+  margin-top: 40px
+
+}
+
+.barra {
+  margin-left: 510px;
+  margin-bottom: 100px;
+  height: 100px;
+  border-radius: 10px
+
+}
+
+.stato-1{
+  background-color: #FFB54A;
+  width: 1000px;
+}
+
+.stato-2 {
+  background-color: #46c646;
+  width: 1900px;
+}
+
+.stato-3{
+  background-color: #C70039;
+  width: 400px;
+}
